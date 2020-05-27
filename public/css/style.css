@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: blueviolet;
+}
+.add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+.add a {
+    margin-top: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 700px;
+    padding: 50px 0;
+}
+.content-posts {
+}
+.content-posts a {
+    display: block;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 2px;
+    background: blueviolet;
+    filter: brightness(90%);
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.content-posts a:hover {
+    filter: brightness(80%);
+}
+.content-posts ul {
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.content-posts ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    margin: 20px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #f1f1f1;
+    width: 300px;
+}
+.content-posts ul li img {
+    margin-right: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.content-posts ul li pre {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    color: #4e4e4e;
+}
+.content-posts ul li a {
+    margin-top: 20px;
+}
+.add .title {
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.add form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.add form input,
+.add form textarea {
+    margin-bottom: 10px;
+}
+.add form .file #output {
+    margin: 0 auto;
+    max-height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+.add form .file {
+    background-image: url('/public/images/img.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60px;
+    border: 1px dashed #f1f1f1;
+    margin-bottom: 10px;
+    height: 170px;
+    width: 400px;
+}
+.add form input[type='file'] {
+    width: 400px;
+    height: 170px;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.add form textarea,
+.add form input[type='text'],
+.add form button {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    border: none;
+    border-radius: 2px;
+    padding: 10px;
+}
+.add form textarea {
+    height: 150px;
+}
+.add form input[type='text'],
+.add form button {
+    height: 50px;
+}
+.add form button {
+    color: #fff;
+    background: blueviolet;
+    filter: brightness(90%);
+}
+.add form button:hover {
+    filter: brightness(80%);
+    cursor: pointer;
+}

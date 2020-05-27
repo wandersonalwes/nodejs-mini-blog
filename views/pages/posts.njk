@@ -1,0 +1,28 @@
+
+{% extends '../layout.njk' %}
+
+{% block body %}
+<div class='container'>
+    <div class='content-posts'>
+        <a href='/posts/new'>Add Post</a>
+
+        <ul>
+
+            {% for post in posts %}
+
+            <li>
+                <img src='{{ post.img_profile }}' alt='' /> 
+                
+                <h3> {{ post.title }} </h3>
+
+                <pre> {{ post.description }} </pre>
+
+                <a href='/posts/{{ post.id }}'>Delete</a>
+            </li>
+
+            {% endfor %}
+
+        </ul>
+    </div>    
+</div>
+{% endblock %}

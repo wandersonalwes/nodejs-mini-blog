@@ -1,0 +1,27 @@
+
+{% extends '../layout.njk' %}
+
+{% block body %}
+
+<div class='container'>
+        <div class='add'>
+            <h2 class='title'>New Post</h2>
+            <form method="POST" enctype="multipart/form-data">
+                <span class='file'>
+                    
+                        <img id="output">
+                    
+                    <input type="file" name="file" id='file' accept=".jpg, .jpeg, .png"/>
+                </span>
+
+                <input type="text" name="title" placeholder='Title' autocomplete='off' />
+
+                <textarea placeholder='Description' name='description'></textarea>
+
+                <button>Post</button>
+            </form>
+
+            <a href='./'>Come back</a>
+        </div>
+</div>
+{% endblock %}
