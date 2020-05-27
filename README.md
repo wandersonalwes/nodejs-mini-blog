@@ -2,8 +2,8 @@
 
 Simple blog in Node JS to reinforce learning.
 
-![Posts](./.github/posts)
-![New Post](./.github/new-post)
+![Posts](https://raw.githubusercontent.com/wandersonalwes/nodejs-mini-blog/master/.github/posts.png)
+![New Post](https://raw.githubusercontent.com/wandersonalwes/nodejs-mini-blog/master/.github/new-post.png)
 
 ## 🚀 Features
 
