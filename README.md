@@ -2,6 +2,9 @@
 
 Simple blog in Node JS to reinforce learning.
 
+![Posts](./.github/posts)
+![New Post](./.github/new-post)
+
 ## 🚀 Features
 
 1. Send beautiful images, add a title and description.
