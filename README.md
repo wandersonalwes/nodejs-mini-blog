@@ -14,11 +14,11 @@ Simple blog in Node JS to reinforce learning.
 
 **You need to install [Node JS](https://nodejs.org/en/download/) and [Yarn](https://yarnpkg.com/) first, then in order to clone the project via HTTPS, run this command:**
 
-`https://github.com/wandersonalwes/nodejs-mini-blog.git`
+`git clone https://github.com/wandersonalwes/nodejs-mini-blog.git`
 
 SSH URLs provide access to a Git repository via SSH, a secure protocol. If you have a SSH key registered in your Github account, clone the project using this command:
 
-`git@github.com:wandersonalwes/nodejs-mini-blog.git`
+`git clone git@github.com:wandersonalwes/nodejs-mini-blog.git`
 
 **Install dependencies**
 
